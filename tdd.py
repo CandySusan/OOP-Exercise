@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 pending_orders = []
 delivered_order = [1,2,12.10]
 

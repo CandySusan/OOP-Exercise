@@ -27,13 +27,20 @@ class Dog:
     is_hungry = True
 
     def __init__(self, is_hungry, walk):
-        self.is_hungry = is_hungry
+        self.is_hungry = True
         self. walk = walk
 
 
-Tom = Dog("not hungry", True)
-print(f"All my dogs are {Tom.is_hungry}")
+# Tom = Dog("not hungry", True)
+# print(f"All my dogs are {Tom.is_hungry}")
 
 
-def eat(self):
-    pass
+    def eat(self):
+        if not self.is_hungry:
+            return("My dogs are not hungry")
+        else:
+            return("My dogs are not hungry")
+
+Tom = Dog("is_hungry", False)
+print(Tom.eat())
+        

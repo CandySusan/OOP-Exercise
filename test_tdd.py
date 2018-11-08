@@ -23,8 +23,6 @@ class TestOrder(unittest.TestCase):
         self.assertEqual(check_order_status(order_id),True)
 
     def test_for_adding_new_order(self):
-        # order_id = 2
-        # self.assertIn
         pass
 
     def test_for_marking_order_delivered(self):
